@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ContactListAPIsTestSuite">
+    <test name="API Test Execution">
+        <classes>
+            <class name="tests.TC1_AddNewUser"/>
+            <class name="tests.TC2_GetUserProfile"/>
+            <class name="tests.TC3_UpdateUser"/>
+            <class name="tests.TC4_LoginUser"/>
+            <class name="tests.TC5_AddContact"/>
+            <class name="tests.TC6_GetContactList"/>
+            <class name="tests.TC7_GetContact"/>
+            <class name="tests.TC8_UpdateContact"/>
+            <class name="tests.TC9_UpdateContact"/>
+            <class name="tests.TC10_LogoutUser"/>
+        </classes>
+    </test>
+</suite>
