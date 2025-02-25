@@ -11,18 +11,40 @@ This repository contains automated API tests for the Contact List application us
 
 ## Project Structure  
 ```
-contact-list-restAssured/
-│── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── api/         # API request classes
-│   │   │   ├── utils/       # Helper utilities
-│   ├── test/
-│   │   ├── java/
-│   │   │   ├── tests/       # Test cases
-│   │   │   ├── hooks/       # Test setup & teardown
-│── pom.xml                  # Maven dependencies
-│── README.md                # Project documentation
+ContactListApplicationAPIs/
+│── .idea/                      # IDE-related settings  
+│── src/  
+│   ├── main/  
+│   │   ├── java/               # (Empty or contains application logic)  
+│   ├── test/  
+│   │   ├── java/  
+│   │   │   ├── base/  
+│   │   │   │   ├── BaseClass.java  # Base setup for tests  
+│   │   │   ├── POJO/  
+│   │   │   │   ├── AddContactDetails.java  
+│   │   │   │   ├── AddNewUserDetails.java  
+│   │   │   │   ├── LoginUserDetails.java  
+│   │   │   │   ├── UpdateFullContactDetails.java  
+│   │   │   │   ├── UpdatePartialContactDetails.java  
+│   │   │   │   ├── UpdateUserDetails.java  
+│   │   │   ├── tests/  
+│   │   │   │   ├── TC1_AddNewUser.java  
+│   │   │   │   ├── TC2_GetUserProfile.java  
+│   │   │   │   ├── TC3_UpdateUser.java  
+│   │   │   │   ├── TC4_LoginUser.java  
+│   │   │   │   ├── TC5_AddContact.java  
+│   │   │   │   ├── TC6_GetContactList.java  
+│   │   │   │   ├── TC7_GetContact.java  
+│   │   │   │   ├── TC8_UpdateContact.java  
+│   │   │   │   ├── TC9_UpdateContact.java  
+│   │   │   │   ├── TC10_LogoutUser.java  
+│   │   │   ├── utils/  
+│   │   │   │   ├── config.properties  # Configuration file  
+│   │   │   │   ├── reportInfo         # Reporting info  
+│── target/                      # Compiled files and test reports
+|──ExtentReport.html             # Extent report
+|──pom.xml                       # pom file
+|──testng.xml                    # testng file to run all the tests
 ```
 
 ## Setup Instructions  
