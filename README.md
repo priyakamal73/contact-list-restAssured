@@ -70,4 +70,4 @@ ContactListApplicationAPIs/
    ```
 
 ## Reporting  
-Test execution reports are generated in the name  `ExtentReport.html`.  
+Test execution report is generated in the name  `ExtentReport.html`.  
