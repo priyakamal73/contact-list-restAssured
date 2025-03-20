@@ -5,7 +5,6 @@ This repository contains automated API tests for the Contact List application us
 ## Features  
 - **RestAssured** for API automation  
 - **TestNG** for test execution  
-- **JSON Schema Validation**  
 - **Assertions for Response Validation**  
 - **Logging & Reporting**  
 
